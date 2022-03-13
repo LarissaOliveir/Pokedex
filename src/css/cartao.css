@@ -1,0 +1,109 @@
+.cartao-pokemon{
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2)
+    0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-pokemon .cartao-topo{
+    padding: 30px 40px 0;
+}
+
+.cartao-pokemon .nome{
+    margin-bottom: 5px;
+}
+
+.cartao-pokemon .tipo{
+    font-size: 12px;
+    background-color: #fff;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2)
+    0px 7px 29px 0px;
+}
+
+.cartao-pokemon .detalhes{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-pokemon .cartao-imagem{
+    width: 350px;
+    height: 350px;
+}
+
+.cartao-pokemon img{
+    max-height: 100%;
+}
+
+.cartao-pokemon .cartao-informacoes{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 80px 30px 50px;
+    margin-top: -70px; /* quadrado que esta em baixo de uma parte
+    do pokemin, fazendo impressao de flutuar */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-pokemon .cartao-informacoes h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+
+}
+
+.cartao-pokemon .cartao-informacoes .status,
+.cartao-pokemon .cartao-informacoes .habilidades{
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-pokemon .cartao-informacoes .habilidades ul li
+, .cartao-pokemon .cartao-informacoes .status ul li{
+    border-bottom: 1px solid #c3c4c5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-pokemon.aberto{
+    display: block;
+}
+
+.tipo-incendio{
+    background-color: #c4642d;
+}
+
+.tipo-eletrico{
+    background-color: #cfa722;
+}
+
+.tipo-agua{
+    background-color: #76befe;
+}
+
+.tipo-grama{
+    background-color: #27a386;
+}
+
+.tipo-fantasma{
+    background-color: #7d50b1;
+}
+
+.tipo-dragao{
+    background-color: #bd7914;
+}
+
+
+
+
+
+
+
+
+
